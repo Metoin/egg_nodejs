@@ -1,0 +1,228 @@
+2018-04-10 11:22:38,518 ERROR 10032 [-/::1/-/9ms GET /api/member/login] nodejs.ReferenceError: app is not defined
+    at Member.login (E:\Java\egg-example\app\controller\member.js:7:16)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\Java\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\Java\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\Java\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 10032
+hostname: CNHQ-16041095N
+
+2018-04-10 11:23:14,828 ERROR 9652 [-/::1/-/9ms GET /api/member/login] nodejs.TypeError: this.app.mysql.query is not a function
+    at Member.login (E:\Java\egg-example\app\controller\member.js:7:37)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\Java\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\Java\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\Java\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 9652
+hostname: CNHQ-16041095N
+
+2018-04-10 11:25:53,639 ERROR 8428 [-/::1/-/13ms GET /api/member/login] nodejs.ReferenceError: user is not defined
+    at Member.login (E:\Java\egg-example\app\controller\member.js:8:34)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\Java\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\Java\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\Java\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 8428
+hostname: CNHQ-16041095N
+
+2018-04-10 11:46:33,416 ERROR 9632 [-/::1/-/20ms GET /api/member/login] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'test.select * from member' doesn't exist
+    at Query.Sequence._packetToError (E:\Java\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\Java\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\Java\egg-example\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (E:\Java\egg-example\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\Java\egg-example\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\Java\egg-example\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Pool.query (E:\Java\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\Java\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\Java\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\Java\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\Java\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (E:\Java\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\Java\egg-example\node_modules\co\index.js:65:19)
+    at E:\Java\egg-example\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `select * from member` WHERE `id` = 1 LIMIT 0, 1
+code: 'ER_NO_SUCH_TABLE'
+errno: 1146
+sqlMessage: 'Table \'test.select * from member\' doesn\'t exist'
+sqlState: '42S02'
+index: 0
+sql: 'SELECT * FROM `select * from member` WHERE `id` = 1 LIMIT 0, 1'
+name: 'ER_NO_SUCH_TABLEError'
+pid: 9632
+hostname: CNHQ-16041095N
+
+2018-04-10 15:07:01,457 ERROR 9420 [-/::1/-/12ms GET /api/v1/member/] nodejs.ReferenceError: ctx is not defined
+    at Member.index (E:\Java\egg-example\app\controller\member.js:9:20)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\Java\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\Java\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\Java\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 9420
+hostname: CNHQ-16041095N
+
+2018-04-10 17:24:08,928 ERROR 9808 [-/::1/-/9ms GET /api/v1/member/] nodejs.TypeError: Cannot read property 'query' of undefined
+    at Member.find (E:\Java\egg-example\app\service\member.js:6:34)
+    at Member.index (E:\Java\egg-example\app\controller\member.js:9:50)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\Java\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\Java\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\Java\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 9808
+hostname: CNHQ-16041095N
+
+2018-04-10 17:24:18,128 ERROR 4060 [-/::1/-/13ms GET /api/v1/member/] nodejs.TypeError: Cannot read property 'query' of undefined
+    at Member.find (E:\Java\egg-example\app\service\member.js:6:34)
+    at Member.index (E:\Java\egg-example\app\controller\member.js:9:50)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\Java\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\Java\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\Java\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 4060
+hostname: CNHQ-16041095N
+
+2018-04-10 17:24:39,058 ERROR 4060 [-/::1/-/6ms GET /api/v1/member/] nodejs.TypeError: Cannot read property 'query' of undefined
+    at Member.find (E:\Java\egg-example\app\service\member.js:6:34)
+    at Member.index (E:\Java\egg-example\app\controller\member.js:9:50)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\Java\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\Java\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\Java\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 4060
+hostname: CNHQ-16041095N
+
+2018-04-10 17:24:47,767 ERROR 3588 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 3588
+hostname: CNHQ-16041095N
+
+2018-04-10 17:24:50,049 ERROR 3588 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 3588
+hostname: CNHQ-16041095N
+
+2018-04-10 17:24:50,531 ERROR 3588 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 3588
+hostname: CNHQ-16041095N
+
+2018-04-10 17:24:51,165 ERROR 7256 [-/::1/-/7ms GET /api/v1/member/] nodejs.TypeError: Cannot read property 'query' of undefined
+    at Member.find (E:\Java\egg-example\app\service\member.js:6:34)
+    at Member.index (E:\Java\egg-example\app\controller\member.js:9:50)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\Java\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\Java\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\Java\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 7256
+hostname: CNHQ-16041095N
+
+2018-04-10 17:24:53,055 ERROR 7256 [-/::1/-/4ms GET /api/v1/member/] nodejs.TypeError: Cannot read property 'query' of undefined
+    at Member.find (E:\Java\egg-example\app\service\member.js:6:34)
+    at Member.index (E:\Java\egg-example\app\controller\member.js:9:50)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\Java\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\Java\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\Java\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 7256
+hostname: CNHQ-16041095N
+
+2018-04-10 17:24:53,298 ERROR 7256 [-/::1/-/4ms GET /api/v1/member/] nodejs.TypeError: Cannot read property 'query' of undefined
+    at Member.find (E:\Java\egg-example\app\service\member.js:6:34)
+    at Member.index (E:\Java\egg-example\app\controller\member.js:9:50)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\Java\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\Java\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\Java\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 7256
+hostname: CNHQ-16041095N
+
+2018-04-10 17:25:02,002 ERROR 7256 [-/::1/-/1ms GET /api/v1/member/] nodejs.TypeError: Cannot read property 'query' of undefined
+    at Member.find (E:\Java\egg-example\app\service\member.js:6:34)
+    at Member.index (E:\Java\egg-example\app\controller\member.js:9:50)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\Java\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\Java\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\Java\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\Java\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\Java\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 7256
+hostname: CNHQ-16041095N
+

@@ -1,0 +1,291 @@
+{
+  "keys": "E:\\Java\\egg-example\\config\\config.default.js",
+  "middleware": "E:\\Java\\egg-example\\config\\config.default.js",
+  "errorHandler": {
+    "match": "E:\\Java\\egg-example\\config\\config.default.js"
+  },
+  "mysql": {
+    "client": {
+      "host": "E:\\Java\\egg-example\\config\\config.default.js",
+      "port": "E:\\Java\\egg-example\\config\\config.default.js",
+      "user": "E:\\Java\\egg-example\\config\\config.default.js",
+      "password": "E:\\Java\\egg-example\\config\\config.default.js",
+      "database": "E:\\Java\\egg-example\\config\\config.default.js"
+    },
+    "app": "E:\\Java\\egg-example\\config\\config.default.js",
+    "agent": "E:\\Java\\egg-example\\config\\config.default.js",
+    "default": {
+      "database": "E:\\Java\\egg-example\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "E:\\Java\\egg-example\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "E:\\Java\\egg-example\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "E:\\Java\\egg-example\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\Java\\egg-example\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "E:\\Java\\egg-example\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "E:\\Java\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "E:\\Java\\egg-example\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "E:\\Java\\egg-example\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "E:\\Java\\egg-example\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "E:\\Java\\egg-example\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "E:\\Java\\egg-example\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "E:\\Java\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "E:\\Java\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "E:\\Java\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "E:\\Java\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "E:\\Java\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "E:\\Java\\egg-example\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "E:\\Java\\egg-example\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "E:\\Java\\egg-example\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "E:\\Java\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "E:\\Java\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "E:\\Java\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "E:\\Java\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "E:\\Java\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "E:\\Java\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "E:\\Java\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "E:\\Java\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "E:\\Java\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "E:\\Java\\egg-example\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "E:\\Java\\egg-example\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "E:\\Java\\egg-example\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "E:\\Java\\egg-example\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "E:\\Java\\egg-example\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "E:\\Java\\egg-example\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "E:\\Java\\egg-example\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "E:\\Java\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "E:\\Java\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "E:\\Java\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "E:\\Java\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "E:\\Java\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "E:\\Java\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "E:\\Java\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "E:\\Java\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "E:\\Java\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "E:\\Java\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "E:\\Java\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "E:\\Java\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "E:\\Java\\egg-example\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "E:\\Java\\egg-example\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "E:\\Java\\egg-example\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "E:\\Java\\egg-example\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "E:\\Java\\egg-example\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "E:\\Java\\egg-example\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "name": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "version": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "description": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "private": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-validate": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "webstorm-disable-index": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "stop": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "dev": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "debug": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "test": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "cov": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "lint": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "ci": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "autod": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "url": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "license": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "strict": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "depth": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "env": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "level": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "logging": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "port": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "E:\\Java\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  }
+}
